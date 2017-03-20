@@ -32,6 +32,9 @@
 #ifndef CSV_H
 #define CSV_H
 
+#pragma warning(disable: 4996)  // need strncpy
+
+
 #include <vector>
 #include <string>
 #include <cstring>
